@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tea House</title>
+    <link rel="stylesheet" href="styles/style.css">
     <!-- tailwind cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- font awesome -->
@@ -15,10 +16,9 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
     <!-- banner section start here -->
     <div
-      class="parent_div manrope_font flex flex-col md:flex-row justify-between border-2 border-red-500 min-h-[200px] max-w-7xl mx-auto"
+      class="parent_div flex flex-col md:flex-row justify-between border-2 border-red-500 min-h-[200px] max-w-7xl mx-auto p-4 md:p-0 "
     >
       <!-- left part -->
       <div class="left_div border-2 border-green-500">
@@ -52,11 +52,11 @@
     </div>
 
     <!-- feature section start here -->
-    <section class="min-h-[200px] max-w-7xl mx-auto mt-28">
+    <section class="min-h-[200px] max-w-7xl mx-auto mt-28 p-4 md:p-0">
       <h1 class="text-5xl text-center">Our Feature Products</h1>
       <p class="text-center my-10">
         There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour, or
+        majority have suffered alteration in some form, <br> by injected humour, or
         randomised words which don't look even slightly believable.
       </p>
       <div
@@ -167,7 +167,7 @@
 
     <!-- meet our client section start here -->
     <div
-      class="parent_div max-w-7xl mx-auto mt-[100px] border-2 border-red-500 h-[1000px] md:h-[600px] flex gap-6 p-5 bg-gradient-to-r from-[#ff8838] to-[#ff0201] rounded-lg flex-col md:flex-row"
+      class="parent_div max-w-7xl mx-auto mt-[100px] border-2 border-red-500 h-[1000px] md:h-[600px] flex gap-6 p-4 bg-gradient-to-r from-[#ff8838] to-[#ff0201] rounded-lg flex-col md:flex-row "
     >
       <!-- left side  -->
       <div
@@ -312,7 +312,7 @@
           <img src="images/cup.png" alt="" />
           <div class=" flex items-center">
             <p class="mr-10 text-xl">Ready to get started?</p>
-            <button class="bg-orange-500 p-3 text-xl">Get Started</button>
+            <button class="p-3 text-xl bg-gradient-to-l text-xl from-[#FF0000] to-[#FF8938] text-white rounded-lg">Get Started</button>
           </div>
         </div>
         <!-- item container -->
@@ -342,7 +342,7 @@
           <div class="border-2">
             <h3 class="font-semibold text-2xl">Subscribe to our <br> newsletter</h3>
             <input type="email" name="email" placeholder="Email address" class="border-b-1 outline-none my-12">
-            <button class="border-2 h-7 w-7 rounded-full ">></button>
+            <button class="border-1 h-8 w-8 rounded-full bg-gradient-to-l text-xl from-[#FF0000] to-[#FF8938] text-white  "> <span><i class="fa-solid fa-chevron-right"></i></span> </button>
             <div>
               <i class="fa-brands fa-facebook-f"></i>
               <i class="fa-brands fa-twitter"></i>
